@@ -18,6 +18,7 @@
           "rules": [
             {
               "matches": "[id$=\"/hiad_skip_text\"]",
+              "action": "clickCenter",
               "snapshotUrls": [
                 "https://gkd-kit.gitee.io/snapshot/1695258949684"
               ]
