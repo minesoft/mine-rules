@@ -1,23 +1,30 @@
-[
-  {
-    "id": "com.huawei.health",
-    "name": "huawei.health",
-    "groups": [
-      {
-        "key": 1,
-        "name": "华为运动健康-开屏广告",
-        "activityIds": [
-          "com.huawei.health.MainActivity"
-        ],
-        "rules": [
-          {
-            "matches": "[id$=\"/hiad_skip_text\"]",
-            "snapshotUrls": [
-              "https://gkd-kit.gitee.io/snapshot/1695258949684"
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "id": 999,
+  "name": "GKD-满茵规则",
+  "version": 1,
+  "author": "六楼的雨",
+  "supportUri": "https://github.com/minesoft/mine-rules/blob/master/gkd.json",
+  "apps": [
+    {
+      "id": "com.huawei.health",
+      "name": "华为运动健康",
+      "groups": [
+        {
+          "key": 1,
+          "name": "华为运动健康-开屏广告",
+          "activityIds": [
+            "com.huawei.health.MainActivity"
+          ],
+          "rules": [
+            {
+              "matches": "[id$=\"/hiad_skip_text\"]",
+              "snapshotUrls": [
+                "https://gkd-kit.gitee.io/snapshot/1695258949684"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
