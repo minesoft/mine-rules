@@ -1,0 +1,23 @@
+[
+  {
+    "id": "com.huawei.health",
+    "name": "huawei.health",
+    "groups": [
+      {
+        "key": 1,
+        "name": "华为运动健康-开屏广告",
+        "activityIds": [
+          "com.huawei.health.MainActivity"
+        ],
+        "rules": [
+          {
+            "matches": "[id$=\"/hiad_skip_text\"]",
+            "snapshotUrls": [
+              "https://gkd-kit.gitee.io/snapshot/1695258949684"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
